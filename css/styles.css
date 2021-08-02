@@ -1,0 +1,90 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+form {
+  width: 800px;
+  margin: 0 auto;
+}
+
+fieldset {
+  margin-top: 50px;
+  width: 800px;
+  box-sizing: border-box;
+}
+
+legend {
+  padding: 0 10px;
+}
+
+label {
+  display: inline-block;
+  width: 160px;
+  padding: 15px 0;
+}
+
+fieldset:nth-of-type(3) label {
+  width: 250px;
+}
+
+input,
+select {
+  display: inline-block;
+  width: 300px;
+  line-height: 24px;
+  padding: 0 10px;
+}
+
+fieldset:nth-of-type(3) input {
+  width: 50px;
+}
+
+input[type="radio"] {
+  width: 30px;
+}
+
+input[type="radio"] + label {
+  width: 80px;
+}
+
+select {
+  box-sizing: content-box;
+  vertical-align: text-top;
+  padding: 5px 10px;
+}
+
+textarea {
+  width: 480px;
+  margin: 30px 0 15px;
+  vertical-align: middle;
+}
+
+span {
+  display: inline-block;
+  width: 260px;
+  margin-left: 20px;
+  vertical-align: text-top;
+  color: brown;
+}
+
+button {
+  display: inline-block;
+  margin: 30px auto;
+  width: 200px;
+  padding: 10px 0;
+  color: #fff;
+  background-color: deepskyblue;
+  border: none;
+}
+
+button:hover {
+  background-color: #0099cc;
+  cursor: pointer;
+}
+
+button:disabled {
+  color: #bbb;
+  background-color: #eee;
+  border: none;
+}
